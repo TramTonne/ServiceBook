@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: Garamond, serif;
+    background-color: #f4f4f4;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*.top-bar {*/
+/*    background-color: #333;*/
+/*    padding: 10px;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*    height: 60px;*/
+/*}*/
+
+/*!* ServiceBook title styling *!*/
+/*.top-bar .title {*/
+/*    color: white;*/
+/*    font-size: 24px;*/
+/*    font-weight: bold;*/
+/*    margin-left: 20px;*/
+/*}*/
+
+/*!* Styling for the login form aligned to the right *!*/
+/*.login-form {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    margin-right: 20px;*/
+/*}*/
+
+/*.login-form input[type="text"], .login-form input[type="password"] {*/
+/*    padding: 8px;*/
+/*    margin-right: 10px;*/
+/*    border: 1px solid #ccc;*/
+/*    border-radius: 5px;*/
+/*    width: 150px;*/
+/*}*/
+
+/*.login-form input[type="submit"] {*/
+/*    background-color: #4CAF50;*/
+/*    color: white;*/
+/*    border: none;*/
+/*    padding: 8px 16px;*/
+/*    cursor: pointer;*/
+/*    border-radius: 5px;*/
+/*    margin-right: 10px;*/
+/*}*/
+
+/*.login-form input[type="submit"]:hover {*/
+/*    background-color: #45a049;*/
+/*}*/
+
+/*.login-form a {*/
+/*    color: white;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.login-form a:hover {*/
+/*    text-decoration: underline;*/
+/*}*/
+/* Styling for the centered box */
+.find-account-box {
+    background-color: white;
+    padding: 40px;
+    width: 350px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Styling for the main title */
+.find-account-box h1 {
+    font-family: Garamond, serif;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Styling for the instruction text */
+.find-account-box p {
+    font-family: Garamond, serif;
+    font-size: 17px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Input box for email or phone */
+.find-account-box input[type="text"] {
+    font-family: Garamond, serif;
+    font-size: 16px;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Search button */
+.find-account-box input[type="submit"] {
+    font-family: Garamond, serif;
+    font-size: 17px;
+    background-color: DarkSlateBlue;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.find-account-box input[type="submit"]:hover {
+    background-color: DodgerBlue;
+}

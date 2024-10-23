@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SB|Booking</title>
+    <link rel="stylesheet" href="generalStyle.css">
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <div class="header">
+        <div class="title">SB|Anytime Anywhere</div>
+        <div class="nav-links">
+            <a href="mainPage.html">Home</a>
+            <a href="booking.html">Booking</a>
+            <a href="notification.html">Notifications</a>
+            <a href="you.html">You</a>
+        </div>
+    </div>
+    <div class="search-bar">
+        <input type="text" placeholder="Look something up...">
+        <button> Search </button>
+    </div>
+    <h2> Book a service with SB </h2>
+    <div class="form-container">
+        <h3>Service Details</h3>
+        <form id="serviceForm">
+            <!-- Address Input -->
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" placeholder="Enter your address" required>
+
+            <!-- Zip Code Input -->
+            <label for="zipCode">Zip Code:</label>
+            <input type="text" id="zipCode" name="zipCode" placeholder="Enter zip code" required>
+
+            <!-- Service Category Input -->
+            <label for="serviceCategory">Service Category:</label>
+            <select id="serviceCategory" name="serviceCategory" required>
+                <option value="">Select a category</option>
+                <option value="Cleaning">Cleaning</option>
+                <option value="Plumbing">Plumbing</option>
+                <option value="Electrical">Electrical</option>
+                <option value="Landscaping">Landscaping</option>
+                <option value="Landscaping">Other</option>
+                <!-- Add more categories as needed -->
+            </select>
+
+            <!-- Service Name Input -->
+            <label for="serviceName">Service Name:</label>
+            <input type="text" id="serviceName" name="serviceName" placeholder="Enter the service name" required>
+
+            <!-- Detail Description Input -->
+            <label for="description">Detail Description:</label>
+            <textarea id="description" name="description" rows="4" placeholder="Enter a detailed description of the service" required></textarea>
+
+            <!-- Price Range/Hour Input -->
+            <label for="priceRange">Price Range/Hour ($):</label>
+            <input type="number" id="priceRange" name="priceRange" min="0" placeholder="Enter price range per hour" required>
+
+            <!-- Submit Button -->
+            <button type="submit" id="sendServiceBtn">Send Service</button>
+        </form>
+    </div>
+</body>
+</html>
